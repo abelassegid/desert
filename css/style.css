@@ -1,0 +1,70 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+* {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-size: 1.6rem; }
+
+img {
+  width: 100%;
+  border-radius: 15px; }
+
+.main {
+  width: 100%; }
+
+.container {
+  width: 327px;
+  margin: 0 auto; }
+
+.description {
+  margin-top: 40px;
+  margin-bottom: 20px; }
+  .description p {
+    color: lightseagreen;
+    text-transform: capitalize;
+    padding-bottom: 2px; }
+  .description h3 {
+    text-transform: capitalize;
+    color: black;
+    padding-bottom: 2px; }
+  .description span {
+    color: darkorange; }
+
+.header {
+  text-transform: capitalize;
+  margin-top: 35px;
+  margin-bottom: 40px;
+  font-size: 26px;
+  letter-spacing: 1.6px; }
+
+.box {
+  display: flex;
+  flex-direction: column;
+  position: relative; }
+
+.button-container {
+  display: flex;
+  width: 160px;
+  justify-content: space-evenly;
+  position: absolute;
+  bottom: 73px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid black;
+  border-radius: 25px;
+  background-color: white;
+  padding: 1.3rem; }
+  .button-container img {
+    width: 20px; }
+  .button-container button {
+    background-color: white;
+    border: 0;
+    border-radius: 25px;
+    text-transform: capitalize; }
+
+/*# sourceMappingURL=style.css.map */
